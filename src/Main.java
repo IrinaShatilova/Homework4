@@ -23,6 +23,19 @@ public class Main {
         if (age >= 24) {
             System.out.println("Возраст " + age + ". Человек работает.");
         }
-
+        //Задание 3
+        System.out.println (" ");
+        System.out.println ("Задание 3");
+        int capacity = 102;
+        int seatingPositions = 60;
+        int standingPositions = capacity - seatingPositions;
+        int seatingPositionsUsed = 55;
+        int standingPositionsUsed = 42;
+        if (seatingPositionsUsed <= seatingPositions) {
+            System.out.println("Осталось следующее количество сидячих мест - " + (seatingPositions - seatingPositionsUsed));
+        }
+        if (standingPositionsUsed <= standingPositions) {
+            System.out.println("Осталось следующее количество стоячих мест - " + (standingPositions - standingPositionsUsed));
+        }
     }
 }
