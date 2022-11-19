@@ -37,5 +37,47 @@ public class Main {
         if (standingPositionsUsed <= standingPositions) {
             System.out.println("Осталось следующее количество стоячих мест - " + (standingPositions - standingPositionsUsed));
         }
+        //Задание 1. Блок 2
+        System.out.println (" ");
+        System.out.println ("Задание 1. Блок 2.");
+        int age1 = 19;
+        if (age1 >= 18) {
+            System.out.println("Тебе уже " + age1 + ". Поздравляю с совершеннолетием!");
+        }else {
+            System.out.println("Ты еще не достиг совершеннолетия, придется немного подождать. Твой возраст - " + age1);
+        }
+        //Задание 2. Блок 2
+        System.out.println (" ");
+        System.out.println ("Задание 2. Блок 2.");
+        if (age1 >= 7 && age1 < 18) {
+            System.out.println("Возраст " + age1 + ". Ребенок ходит в школу.");
+        }
+        else if (age1 >= 18 && age1 < 24) {
+            System.out.println("Возраст " + age1 + ". Человек учится в университете.");
+        }
+        else if (age1 >= 24) {
+            System.out.println("Возраст " + age1 + ". Человек работает.");
+        }
+        //Задание 3. Блок 2
+        System.out.println (" ");
+        System.out.println ("Задание 3. Блок 2.");
+        int capacity1 = 102;
+        int seatingPositions1 = 60;
+        int standingPositions1 = capacity1 - seatingPositions1;
+        int seatingPositionsUsed1 = 60;
+        int standingPositionsUsed1 = 40;
+        if (seatingPositionsUsed1 < seatingPositions1) {
+            System.out.println("Осталось следующее количество сидячих мест - " + (seatingPositions1 - seatingPositionsUsed1));
+        }
+        else {
+            System.out.println("Сидячих мест нет");
+        }
+        if (standingPositionsUsed1 < standingPositions1) {
+            System.out.println("Осталось следующее количество стоячих мест - " + (standingPositions1 - standingPositionsUsed1));
+        }
+        else {
+            System.out.println("Стоячих мест нет");
+        }
+
     }
 }
