@@ -78,6 +78,62 @@ public class Main {
         else {
             System.out.println("Стоячих мест нет");
         }
-
+        //Задание 1. Блок 3
+        System.out.println (" ");
+        System.out.println ("Задание 1. Блок 3.");
+        int age2 = 5;
+        if (age2 >= 2 && age2 <= 6) {
+            System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад");
+        }
+        else if (age2 > 6 && age2 <= 18)  {
+            System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в школу");
+        }
+        else if (age2 > 18 && age2 <= 24)  {
+            System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в университет");
+        }
+        else if (age2 > 24)  {
+            System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить на работу");
+        }
+        //Задание 2. Блок 3
+        System.out.println (" ");
+        System.out.println ("Задание 2. Блок 3.");
+        if (age2 < 5) {
+            System.out.println("Ребенок не может кататься на аттракционе");
+        }
+        else if (age2 < 14) {
+            System.out.println("Ребенок может кататься на аттракционе только в сопровождении взрослого");
+        }
+        else if (age2 >= 14) {
+            System.out.println("Можно кататься на аттракционе");
+        }
+        //Задание 3. Блок 3
+        System.out.println (" ");
+        System.out.println ("Задание 3. Блок 3.");
+        int one = 15;
+        int two = 99;
+        int three = 100;
+        if (one > two) {
+            if (one >= three) {
+                System.out.println ("Максимальное число " + one);
+            } else {
+                System.out.println ("Максимальное число " + three);
+            }
+        } else if (two > one) {
+            if (two >= three) {
+                System.out.println("Максимальное число - " + two);
+            } else {
+                System.out.println("Максимальное число - " + three);
+            }
+        } else {
+            if (one > three) {
+                System.out.println("Максимальное число " + one);
+            }
+            else if (three > one) {
+                System.out.println("Максимальное число - " + three);
+            }
+            else {
+                System.out.println("Все три числа равны");
+            }
+        }
     }
 }
