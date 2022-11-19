@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Homework4");
-        //Задание 1
+        //Задание 1. Блок 1
         System.out.println (" ");
-        System.out.println ("Задание 1");
+        System.out.println ("Задание 1. Блок 1.");
         int age = 19;
         if (age >= 18) {
             System.out.println("Тебе уже " + age + ". Поздравляю с совершеннолетием!");
@@ -11,9 +11,9 @@ public class Main {
         if (age < 18) {
             System.out.println("Ты еще не достиг совершеннолетия, придется немного подождать. Твой возраст - " + age);
         }
-        //Задание 2
+        //Задание 2. Блок 1
         System.out.println (" ");
-        System.out.println ("Задание 2");
+        System.out.println ("Задание 2. Блок 1.");
         if (age >= 7 && age < 18) {
             System.out.println("Возраст " + age + ". Ребенок ходит в школу.");
         }
@@ -23,9 +23,9 @@ public class Main {
         if (age >= 24) {
             System.out.println("Возраст " + age + ". Человек работает.");
         }
-        //Задание 3
+        //Задание 3. Блок 1
         System.out.println (" ");
-        System.out.println ("Задание 3");
+        System.out.println ("Задание 3. Блок 1.");
         int capacity = 102;
         int seatingPositions = 60;
         int standingPositions = capacity - seatingPositions;
